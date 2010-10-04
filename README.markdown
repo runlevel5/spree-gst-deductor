@@ -14,3 +14,9 @@ I did not have time to write a new Tax Credit class, this comes as quick solutio
 Tax Charge class. For all Aussies out there, enjoy M.A.T.E!
 
 NOTE: The Tax Rate is hard-coded within the code, it WILL NOT use the Tax Rate you set in the backend.
+
+= Setup
+
+rake db:migrate
+
+and that's it! Test it with Australian as Shipping Country, you should see Tax Charge shows $0, if others would show - $amount
