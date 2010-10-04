@@ -19,4 +19,6 @@ NOTE: The Tax Rate is hard-coded within the code, it WILL NOT use the Tax Rate y
 
 rake db:migrate
 
+then goes to admin backend and create Tax Rate for your Tax Category using GST Deductor calculator and the zone is GST Deductible zone, just type in any amount for the rate (it's not used btw)
+
 and that's it! Test it with Australian as Shipping Country, you should see Tax Charge shows $0, if others would show - $amount
